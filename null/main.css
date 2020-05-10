@@ -1,0 +1,434 @@
+:root {
+  --max-width: 1100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: #008000;
+  color: #fff;
+}
+
+::selection {
+  background-color: #008000;
+  color: #fff;
+}
+
+#main-header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/Optimized-black-video-game-controller-159393.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/Optimized-black-video-game-controller-159393.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#main-header .navbar {
+  -webkit-box-shadow: 5px 5px 5px #008000;
+          box-shadow: 5px 5px 5px #008000;
+  opacity: 0.8;
+}
+
+#main-header .navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-weight: bold;
+}
+
+#main-header .navbar .active {
+  color: green;
+}
+
+#main-header .navbar .icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #b6b6b6;
+  display: block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+
+#main-header .navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+#main-header .navbar-toggler .top-bar {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+          transform-origin: 10% 10%;
+}
+
+#main-header .navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+#main-header .navbar-toggler .bottom-bar {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+          transform-origin: 10% 90%;
+}
+
+#main-header .navbar .navbar-toggler.collapsed .top-bar {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+#main-header .navbar .navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+#main-header .navbar .navbar-toggler.collapsed .bottom-bar {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+#main-header #home-section .home-inner {
+  padding-top: 150px;
+}
+
+#main-header #home-section h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.4rem;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.5em;
+}
+
+@media (max-width: 1157px) {
+  #main-header #home-section h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #main-header #home-section h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.3;
+  }
+}
+
+#main-header #home-section h1 .color-green {
+  color: #008000;
+}
+
+#main-header #home-section p {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  #main-header #home-section p {
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0;
+  }
+}
+
+#about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85))), url(../images/crop-man.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85)), url(../images/crop-man.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+#projects {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85))), url(../images/crop-man.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85)), url(../images/crop-man.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#projects p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+#professional {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8))), url(../images/crop-man.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8)), url(../images/crop-man.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#professional h1 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+#professional .professional-title {
+  font-size: 4rem;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  #professional .professional-title {
+    font-size: 1.5rem;
+  }
+}
+
+#professional .professional-subtitle {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  #professional .professional-subtitle {
+    font-size: 1rem;
+  }
+}
+
+#professional .progress {
+  margin-bottom: 10px;
+}
+
+#professional .progress-bar {
+  width: 0;
+}
+
+#professional .progress-bar-heading {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+#experience {
+  font-family: "Lato", sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../images/man-rock.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(../images/man-rock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+  /* Create Line */
+  /* Boxes */
+  /* Right Side */
+  /* Left Side */
+  /* Dots */
+  /* Arrows Base */
+  /* Right Side Arrows */
+  /* Left Side Arrows */
+  /* Show Boxes */
+}
+
+#experience #main-header-2 {
+  padding: 4rem 0;
+}
+
+#experience .container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+#experience h1 {
+  font-size: 2.5rem;
+}
+
+#experience #timeline ul {
+  padding: 50px 0;
+}
+
+#experience #timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #008000;
+}
+
+#experience #timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 1rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#experience #timeline ul li:nth-child(odd) div {
+  left: 40px;
+  -webkit-transform: translate(200px, 0);
+          transform: translate(200px, 0);
+}
+
+#experience #timeline ul li:nth-child(even) div {
+  left: -434px;
+  -webkit-transform: translate(-200px, 0);
+          transform: translate(-200px, 0);
+}
+
+#experience #timeline ul li:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background: inherit;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+#experience #timeline div:before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#experience #timeline ul li:nth-child(odd) div:before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #008000 transparent transparent;
+}
+
+#experience #timeline ul li:nth-child(even) div:before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #008000;
+}
+
+#experience #timeline ul li.show div {
+  -webkit-transform: none;
+          transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+#experience #timeline ul li.show:after {
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  #experience #timeline ul li div {
+    width: 250px;
+  }
+  #experience #timeline ul li:nth-child(even) div {
+    left: -284px;
+  }
+}
+
+@media (max-width: 600px) {
+  #experience #timeline ul li {
+    margin-left: 20px;
+  }
+  #experience #timeline ul li div {
+    width: calc(100vw - 90px);
+  }
+  #experience #timeline ul li:nth-child(even) div {
+    left: 40px;
+  }
+  #experience #timeline ul li:nth-child(even) div:before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #008000 transparent transparent;
+  }
+}
+
+#gallery {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.84))), url(../images/man-rock.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84)), url(../images/man-rock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.84))), url(../images/contact.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84)), url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact .card,
+#contact .card-body {
+  background-color: #262636;
+}
+
+@media (max-width: 768px) {
+  .card-1 {
+    margin-bottom: 10%;
+  }
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #964b00;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+.fa-bullseye,
+.fa-user,
+.fa-id-badge,
+.fa-envelope,
+.fa-phone {
+  color: #008000;
+}
+
+#main-footer {
+  background-color: #262636;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#main-footer .move-up span {
+  color: #008000;
+}
+
+#main-footer .move-up span:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
